@@ -21,7 +21,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 550;
     letter-spacing: 1px;
 }
 
@@ -43,13 +43,13 @@ hr {
 
 .navbar-brand {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
 .navbar-nav {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 350;
     letter-spacing: 3px;
 }
 
