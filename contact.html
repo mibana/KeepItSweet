@@ -95,33 +95,38 @@
             </div>
         </div>
 
-<form class="form-horizontal" role="form" method="post" action="index.php">
-    <div class="form-group">
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10">
-            <textarea class="form-control" rows="4" name="message"></textarea>
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <! Will be used to display an alert to the user>
-        </div>
-    </div>
-</form>                            </div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contact
+                        <strong>form</strong>
+                    </h2>
+                    <hr>
+                    <p>Any questions at all, feel free to write me one of these! Let's be friends!</p>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -150,4 +155,3 @@
 </body>
 
 </html>
-
